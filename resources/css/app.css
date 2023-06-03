@@ -1,0 +1,42 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import '../css/core.css';
+@import '../css/theme-default.css';
+@import '../css/demo.css';
+
+@import '../assets/fonts/fontawesome.css';
+@import '../assets/fonts/tabler-icons.css';
+@import '../assets/fonts/flag-icons.css';
+
+
+@import '../assets/libs/perfect-scrollbar/perfect-scrollbar.css';
+@import '../assets/libs/node-waves/node-waves.css';
+@import '../assets/libs/typeahead-js/typeahead.css';
+@import '../assets/libs/apex-charts/apex-charts.css';
+@import '../assets/libs/swiper/swiper.css';
+
+
+@import '../assets/libs/datatables-bs5/datatables.bootstrap5.css';
+@import '../assets/libs/datatables-responsive-bs5/responsive.bootstrap5.css';
+@import '../assets/libs/flatpickr/flatpickr.css';
+@import '../assets/libs/select2/select2.css';
+
+
+
+
+
+@import '../css/pages/advanced-wizard.css';
+@import '../css/pages/cards-advance.css';
+@import '../css/pages/page-account-settings.css';
+@import '../css/pages/page-auth.css';
+@import '../css/pages/page-icons.css';
+@import '../css/pages/page-misc.css';
+@import '../css/pages/page-pricing.css';
+@import '../css/pages/page-profile.css';
+@import '../css/pages/page-user-view.css';
+@import '../css/pages/page-ama.css';
+@import '../css/pages/page-help-center.css';
+@import '../css/pages/page-faq.css';
+
