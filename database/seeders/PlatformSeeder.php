@@ -16,5 +16,9 @@ class PlatformSeeder extends Seeder
         Platform::create([
             'domain' => 'https://wecima.dev/'
         ]);
+
+        Platform::create([
+            'domain' => 'https://akw.to/'
+        ]);
     }
 }

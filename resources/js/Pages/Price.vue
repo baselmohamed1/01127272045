@@ -16,7 +16,7 @@ onMounted(() => {
   }
 
   let payPalScript = document.createElement('script')
-  payPalScript.setAttribute('src', 'https://www.paypal.com/sdk/js?client-id=Aeir2MDVcZXBvFbV_v3dIPShCu1dSkLsxA1bGDa0cCjEYqmaZqxsngFRcE0h6ltCH8Z_EsWNx8qWqwGn&vault=true&intent=subscription')
+  payPalScript.setAttribute('src', 'https://www.paypal.com/sdk/js?client-id=AY1EVs2QCap1wZkZQ8aSr4b_mYCZqXmQsPIkhk6UAWtGDm3oc7bmqW811Rwcs_FFAy0Wi4K51mgh4Bd0&vault=true&intent=subscription')
   payPalScript.setAttribute('id', 'paypal-js')
   document.body.appendChild(payPalScript)
 

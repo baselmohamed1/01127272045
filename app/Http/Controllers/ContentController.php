@@ -57,15 +57,18 @@ class ContentController extends Controller
 
     public function store(Request $request)
     {
-        $content = Content::create([
+        $contentId = Content::create([
             'user_id' => auth()->user()->id,
             'content_name' => $request->content_name,
             'platform_id' => $request->platform_id,
             'server_id' => $request->server_id,
             'url' => $request->url,
             'folder_path' => $request->folder_path,
-            'media_type' => $request->media_type
+            'media_type' => $request->media_type,
+            'download_type' => $request->download_type
         ]);
+        
+        $content = Content::findOrFail($contentId->id);
 
         DownloadContent::dispatch($content);
 

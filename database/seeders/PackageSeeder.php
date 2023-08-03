@@ -18,7 +18,7 @@ class PackageSeeder extends Seeder
                 'price' => 75,
                 'content_count' => 35,
                 'server_count' => 1,
-                'paypal_plan_id' => 'P-5K969791CB186511VMRN2KJA',
+                'paypal_plan_id' => 'P-7E054009PC724000MMS362CI',
                 'type' => 'subscription'
                 
         ]);

@@ -25,6 +25,7 @@ return new class extends Migration
             $table->enum('media_type', ['movie', 'series']);
             $table->enum('process_status', ['new', 'processed', 'failed'])->default('new');
             $table->enum('download_status', ['new','started', 'completed', 'failed'])->default('new');
+	    $table->string('download_type')->nullable();
             $table->timestamps();
         });
     }

@@ -21,6 +21,7 @@ class Content extends Model
     'url',
     'folder_path',
     'media_type',
+	'download_type'
   ];
 
   public function user()
